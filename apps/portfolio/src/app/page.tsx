@@ -103,7 +103,7 @@ export default function Home() {
           transition={{ delay: 0.5, duration: 1 }}
           className="text-lg text-gray-300 mb-12 text-center"
         >
-          Full-Stack Developer · AI · Cloud · Creative Projects
+          Full-Stack Developer · Game Developer · AI · Cloud · Creative Projects
         </motion.p>
 
         {/* 项目卡片 */}

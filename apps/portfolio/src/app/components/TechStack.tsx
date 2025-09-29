@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-
+import Image from 'next/image';
 const technologies = [
     { name: 'React', src: '/stack_icons/react.95819fe9.svg' },
     { name: 'Next.js', src: '/stack_icons/next.4156f49e.svg' },
@@ -57,7 +57,7 @@ export default function TechStack() {
                 height: '50px',
               }}
             >
-                <img 
+                <Image 
                     src={tech.src} 
                     alt={`${tech.name} Logo`} 
                     width={50} 

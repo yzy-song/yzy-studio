@@ -2,6 +2,7 @@ import AuraArchitecture from '@/app/components/AuraArchitecture';
 import ChimeraLensArchitecture from '@/app/components/ChimeraLensArchitecture';
 import CloudloomArchitecture from '@/app/components/CloudloomArchitecture';
 import NailsalonArchitecture from '@/app/components/NailsalonArchitecture';
+import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
 // 导入所有架构组件
@@ -44,9 +45,9 @@ export default function ProjectDetailPage({ params }: ProjectDetailPageProps) {
       
       {/* 添加一个返回按钮 */}
       <div className="text-center mt-8">
-        <a href="/" className="text-blue-600 hover:text-blue-800 transition">
+        <Link href="/" className="text-blue-600 hover:text-blue-800 transition">
           ← Back to Portfolio
-        </a>
+        </Link>
       </div>
     </div>
   );

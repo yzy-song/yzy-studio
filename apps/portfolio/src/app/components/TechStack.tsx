@@ -1,4 +1,3 @@
-// src/components/TechStack.tsx
 import React from 'react';
 import { motion } from 'framer-motion';
 
@@ -9,9 +8,9 @@ const technologies = [
     { name: 'Tailwind CSS', src: '/stack_icons/tailwind.f5579b94.svg' },
     { name: 'Vue', src: '/stack_icons/vue.68af69e9.svg' },
     { name: 'TypeScript', src: '/stack_icons/ts.fd86d0ee.svg' },
-  { name: 'Git', src: '/stack_icons/git.18e73a3f.svg' },
-  { name: 'Shell', src: '/stack_icons/shell.e62d42c5.svg' },
-  { name: 'Docker', src: '/stack_icons/docker.3ceb4840.svg' },
+    { name: 'Git', src: '/stack_icons/git.18e73a3f.svg' },
+    { name: 'Shell', src: '/stack_icons/shell.e62d42c5.svg' },
+    { name: 'Docker', src: '/stack_icons/docker.3ceb4840.svg' },
 //   { name: 'PostgreSQL', src: '/stack_icons/postgresql.svg' },
 ];
 

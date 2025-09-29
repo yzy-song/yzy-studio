@@ -45,12 +45,22 @@ export default function AuraArchitecture() {
 
             {/* Components */}
             {/* User Client */}
+            <rect x="80" y="180" width="100" height="60" rx="5" fill="#ffffff" stroke="#9ca3af"/>
+            <text x="130" y="215" textAnchor="middle" fill="#111827">
+              PC Browser
+            </text>
+
             <rect x="80" y="380" width="100" height="60" rx="5" fill="#ffffff" stroke="#9ca3af"/>
             <text x="130" y="415" textAnchor="middle" fill="#111827">
-              User's Device
+              Mobile Browser
             </text>
-            <text x="130" y="430" fontSize="12" textAnchor="middle" fill="#0369a1">
-              (Browser / Installed PWA)
+
+            <rect x="80" y="580" width="100" height="60" rx="5" fill="#ffffff" stroke="#9ca3af"/>
+            <text x="130" y="615" textAnchor="middle" fill="#111827">
+              Mobile Browser
+            </text>
+            <text x="130" y="630" fontSize="12" textAnchor="middle" fill="#0369a1">
+              (Installed PWA)
             </text>
 
             {/* Frontend */}
@@ -110,6 +120,11 @@ export default function AuraArchitecture() {
             </text>
             <text x="1040" y="345" textAnchor="middle" fontSize="12" fill="#b45309">
               (Prisma / Railway)
+            </text>
+
+            <rect x="950" y="400" width="180" height="50" rx="5" fill="#ffffff" stroke="#d97706"/>
+            <text x="1040" y="430" textAnchor="middle" fill="#111827">
+              Redis Cache
             </text>
 
             {/* Main Workflow: AI Summary Generation */}

@@ -39,10 +39,26 @@ export default function NailsalonArchitecture() {
             </defs>
             {/* Components */}
             {/* User Client */}
-            <rect x="70" y="380" width="100" height="60" rx="5" fill="#ffffff" stroke="#9ca3af"/>
-            <text x="120" y="415" textAnchor="middle" fill="#111827">
-              User's Browser
+            <rect x="70" y="150" width="100" height="60" rx="5" fill="#ffffff" stroke="#9ca3af"/>
+            <text x="120" y="185" textAnchor="middle" fill="#111827">
+              Browser 1
             </text>
+
+            <rect x="70" y="280" width="100" height="60" rx="5" fill="#ffffff" stroke="#9ca3af"/>
+            <text x="120" y="315" textAnchor="middle" fill="#111827">
+              Browser 2
+            </text>
+
+            <rect x="70" y="410" width="100" height="60" rx="5" fill="#ffffff" stroke="#9ca3af"/>
+            <text x="120" y="445" textAnchor="middle" fill="#111827">
+              Browser 3 
+            </text>
+
+            <rect x="70" y="540" width="100" height="60" rx="5" fill="#ffffff" stroke="#9ca3af"/>
+            <text x="120" y="575" textAnchor="middle" fill="#111827">
+              Browser ... 
+            </text>
+            
             {/* Frontend */}
             <rect x="290" y="140" width="180" height="50" rx="5" fill="#c7d2fe" stroke="#4f46e5"/>
             <text x="380" y="170" textAnchor="middle" fill="#312e81">

@@ -36,7 +36,7 @@ export default function CloudloomArchitecture() {
             {/* User Client components */}
             <rect x="70" y="340" width="100" height="60" rx="5" fill="#ffffff" stroke="#9ca3af"/>
             <text x="120" y="375" textAnchor="middle" fill="#111827">
-              User's Browser
+              Browser
             </text>
             {/* Frontend components */}
             <rect x="290" y="140" width="180" height="50" rx="5" fill="#c7d2fe" stroke="#4f46e5"/>
@@ -125,6 +125,11 @@ export default function CloudloomArchitecture() {
             <path d="M865 410 H775" stroke="#6b7280" strokeWidth="1.5" markerEnd="url(#arrow)"/>
             <text x="820" y="420" fontSize="10" fill="#6b7280">
               Manage Deployment
+            </text>
+
+            <path d="M285 165 H175" stroke="#4b5563" strokeWidth="2" strokeDasharray="5,5" markerEnd="url(#arrow)"/>
+            <text x="200" y="190" fontSize="10" fill="#4b5563">
+              Display Result
             </text>
           </svg>
         </div>
